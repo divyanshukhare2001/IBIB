@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dubai Trade Summit — UAE Travel Package | IBIBI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="package.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div id="page-wrap" class="loaded">
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar is-scrolled" id="navbar">
+  <div class="navbar__inner">
+    <a href="index.html#top" class="navbar__brand">
+      <span class="navbar__brand-icon"><i data-lucide="globe-2"></i></span>
+      <span class="navbar__brand-text">IBIBI</span>
+    </a>
+
+    <nav class="navbar__links" id="navLinks">
+      <a href="index.html#about">About</a>
+      <a href="index.html#countries">Countries</a>
+      <a href="index.html#why">Events</a>
+      <a href="index.html#packages">Travel Packages</a>
+      <a href="index.html#footer">Contact Us</a>
+    </nav>
+
+    <a href="#login" class="btn btn--outline navbar__login">Login</a>
+
+    <button class="navbar__burger" id="burgerBtn" aria-label="Toggle menu">
+      <i data-lucide="menu"></i>
+    </button>
+  </div>
+
+  <div class="navbar__mobile" id="navMobile">
+    <a href="index.html#about">About</a>
+    <a href="index.html#countries">Countries</a>
+    <a href="index.html#why">Events</a>
+    <a href="index.html#packages">Travel Packages</a>
+    <a href="index.html#footer">Contact Us</a>
+    <a href="#login" class="btn btn--outline">Login</a>
+  </div>
+</header>
+
+<!-- ============ PACKAGE HERO ============ -->
+<section class="pkg-hero" id="top">
+  <div class="pkg-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1800&auto=format&fit=crop')"></div>
+  <div class="pkg-hero__overlay"></div>
+
+  <div class="pkg-hero__content">
+    <!-- <a href="index.html#packages" class="pkg-hero__back"><i data-lucide="arrow-left"></i> All Travel Packages</a> -->
+    <span class="eyebrow eyebrow--light">United Arab Emirates</span>
+    <h1 class="pkg-hero__heading">Dubai Trade Summit</h1>
+    <p class="pkg-hero__subheading">A curated business &amp; leisure journey through Dubai — from skyline landmarks and desert adventure to the BIB International Awards.</p>
+
+    <div class="pkg-hero__facts">
+      <div class="pkg-hero__fact"><i data-lucide="calendar-days"></i><span>4 Nights / 5 Days</span></div>
+      <div class="pkg-hero__fact"><i data-lucide="building-2"></i><span>Burj Al Arab</span></div>
+      <div class="pkg-hero__fact"><i data-lucide="utensils"></i><span>Full Board Meals</span></div>
+      <div class="pkg-hero__fact"><i data-lucide="plane"></i><span>Flight — Emirates</span></div>
+    </div>
+
+    <div class="pkg-hero__actions">
+      <button class="btn btn--gold" id="enquiryBtnHero">Enquiry <i data-lucide="arrow-right"></i></button>
+      <a href="#itinerary" class="btn btn--outline btn--outline-light">View Itinerary</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUICK FACTS STRIP ============ -->
+<section class="pkg-facts">
+  <div class="section-inner pkg-facts__grid">
+    <div class="pkg-facts__item">
+      <span class="pkg-facts__icon"><i data-lucide="calendar-days"></i></span>
+      <div>
+        <span class="pkg-facts__label">Duration</span>
+        <span class="pkg-facts__value">4 Nights / 5 Days</span>
+      </div>
+    </div>
+    <div class="pkg-facts__item">
+      <span class="pkg-facts__icon"><i data-lucide="building-2"></i></span>
+      <div>
+        <span class="pkg-facts__label">Hotel</span>
+        <span class="pkg-facts__value">Burj Al Arab</span>
+      </div>
+    </div>
+    <div class="pkg-facts__item">
+      <span class="pkg-facts__icon"><i data-lucide="utensils"></i></span>
+      <div>
+        <span class="pkg-facts__label">Meals</span>
+        <span class="pkg-facts__value">Full Board</span>
+      </div>
+    </div>
+    <div class="pkg-facts__item">
+      <span class="pkg-facts__icon"><i data-lucide="plane"></i></span>
+      <div>
+        <span class="pkg-facts__label">Flight</span>
+        <span class="pkg-facts__value">Emirates</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ITINERARY (SCROLL TIMELINE) ============ -->
+<section class="itinerary" id="itinerary">
+  <div class="section-inner">
+    <span class="eyebrow eyebrow--gold">Day By Day</span>
+    <h2 class="section-heading">Your Dubai Itinerary</h2>
+  </div>
+
+  <div class="section-inner itinerary__layout">
+
+    <!-- Sticky visual panel -->
+    <div class="itinerary__sticky-col">
+      <div class="itinerary__sticky">
+        <div class="itinerary__sticky-image" id="itinImage" style="background-image:url('https://images.unsplash.com/photo-1545555719-a68ea50c8494?q=80&w=1400&auto=format&fit=crop')"></div>
+        <div class="itinerary__sticky-overlay"></div>
+        <div class="itinerary__sticky-caption">
+          <span class="itinerary__sticky-day" id="itinDayNum">Day 01</span>
+          <span class="itinerary__sticky-title" id="itinDayTitle">Patna → Delhi → Dubai</span>
+        </div>
+        <!-- <div class="itinerary__sticky-progress">
+          <span class="itinerary__sticky-dot" data-dot="1"></span>
+          <span class="itinerary__sticky-dot" data-dot="2"></span>
+          <span class="itinerary__sticky-dot" data-dot="3"></span>
+          <span class="itinerary__sticky-dot" data-dot="4"></span>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Scrolling day content -->
+    <div class="itinerary__days">
+
+      <article class="itinerary__day is-active" data-day="01" data-title="Patna → Delhi → Dubai"
+        data-image="https://images.unsplash.com/photo-1545555719-a68ea50c8494?q=80&w=1400&auto=format&fit=crop">
+        <span class="itinerary__day-tag">Day 01</span>
+        <h3>Patna → Delhi → Dubai</h3>
+        <div class="itinerary__day-mobile-img" style="background-image:url('https://images.unsplash.com/photo-1545555719-a68ea50c8494?q=80&w=1400&auto=format&fit=crop')"></div>
+        <ul class="itinerary__list">
+          <li><i data-lucide="map-pin"></i> Palm Jumeirah</li>
+          <li><i data-lucide="moon-star"></i> Evening: Marina Walk &amp; Dinner</li>
+        </ul>
+      </article>
+
+      <article class="itinerary__day" data-day="02" data-title="Dubai City Tour"
+        data-image="https://images.unsplash.com/photo-1569669568753-66ae4baf6d58?q=80&w=1400&auto=format&fit=crop">
+        <span class="itinerary__day-tag">Day 02</span>
+        <h3>Dubai City Tour</h3>
+        <div class="itinerary__day-mobile-img" style="background-image:url('https://images.unsplash.com/photo-1569669568753-66ae4baf6d58?q=80&w=1400&auto=format&fit=crop')"></div>
+        <ul class="itinerary__list">
+          <li><i data-lucide="camera"></i> Museum of the Future <small>(Photo Stop)</small></li>
+          <li><i data-lucide="camera"></i> Burj Al Arab <small>(Photo Stop)</small></li>
+          <li><i data-lucide="building-2"></i> Burj Khalifa TOP Floor Visit <small>— 174th Floor</small></li>
+          <li><i data-lucide="shopping-bag"></i> Dubai Mall</li>
+          <li><i data-lucide="droplets"></i> Dubai Fountain Show</li>
+        </ul>
+      </article>
+
+      <article class="itinerary__day" data-day="03" data-title="Desert Safari Experience"
+        data-image="https://images.unsplash.com/photo-1763535884852-ad4af7563326?q=80&w=1400&auto=format&fit=crop">
+        <span class="itinerary__day-tag">Day 03</span>
+        <h3>Desert Safari Experience</h3>
+        <div class="itinerary__day-mobile-img" style="background-image:url('https://images.unsplash.com/photo-1763535884852-ad4af7563326?q=80&w=1400&auto=format&fit=crop')"></div>
+        <ul class="itinerary__list">
+          <li><i data-lucide="sunset"></i> Afternoon Desert Safari</li>
+          <li><i data-lucide="footprints"></i> Camel Ride</li>
+          <li><i data-lucide="music"></i> Live Cultural Shows</li>
+          <li><i data-lucide="flame"></i> BBQ Dinner</li>
+          <li><i data-lucide="tent"></i> Overnight Stay</li>
+        </ul>
+      </article>
+
+      <article class="itinerary__day" data-day="04" data-title="Business Networking &amp; BIB Awards"
+        data-image="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1400&auto=format&fit=crop">
+        <span class="itinerary__day-tag">Day 04</span>
+        <h3>Business Networking &amp; BIB International Awards</h3>
+        <div class="itinerary__day-mobile-img" style="background-image:url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1400&auto=format&fit=crop')"></div>
+        <ul class="itinerary__list">
+          <li><i data-lucide="handshake"></i> International Business Networking Session</li>
+          <li><i data-lucide="award"></i> BIB International Awards Ceremony</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENQUIRY CTA BAND ============ -->
+<section class="pkg-cta">
+  <div class="section-inner pkg-cta__inner">
+    <div>
+      <span class="eyebrow eyebrow--gold">Ready When You Are</span>
+      <h2 class="section-heading section-heading--light">Reserve your seat on the Dubai Trade Summit</h2>
+      <p class="body-text pkg-cta__text">Share your details and our team will get back with availability, pricing and delegation options.</p>
+    </div>
+    <button class="btn btn--gold pkg-cta__btn" id="enquiryBtnCta">Enquiry <i data-lucide="arrow-right"></i></button>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="footer">
+  <div class="section-inner footer__grid">
+    <div class="footer__brand">
+      <div class="footer__brand-row">
+        <span class="footer__brand-icon"><i data-lucide="globe-2"></i></span>
+        <span class="footer__brand-text">IBIBI</span>
+      </div>
+      <p>International Business in Bihar India — connecting entrepreneurs to global conferences, trade exhibitions, delegations, and curated business travel.</p>
+      <div class="footer__socials">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Explore</h4>
+      <a href="index.html#about">About</a>
+      <a href="index.html#countries">Countries</a>
+      <a href="index.html#why">Events</a>
+      <a href="index.html#packages">Travel Packages</a>
+      <a href="index.html#footer">Contact Us</a>
+    </div>
+    <div class="footer__col">
+      <h4>Resources</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Services</a>
+      <a href="#">Partner with Us</a>
+      <a href="#">FAQs</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <span class="footer-contact"><a href=""><i data-lucide="map-pin"></i> Patna, Bihar, India</a></span>
+      <span class="footer-contact"><a href="tel: 9876543210"><i data-lucide="phone"></i> +91 98765 43210</a></span>
+      <span class="footer-contact"><a href="mailto: connect@ibibi.org"><i data-lucide="mail"></i> connect@ibibi.org</a></span>
+    </div>
+  </div>
+
+  <div class="section-inner footer__bottom">
+    <p>&copy; <span id="year"></span> IBIBI. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ CONTACT POPUP ============ -->
+<div class="popup" id="popup" hidden>
+  <div class="popup__backdrop" id="popupBackdrop"></div>
+  <div class="popup__panel">
+    <button class="popup__close" id="popupClose" aria-label="Close"><i data-lucide="x"></i></button>
+
+    <div id="popupForm">
+      <span class="eyebrow">Dubai Trade Summit</span>
+      <h3 class="popup__heading">Enquire about this package</h3>
+      <p class="popup__text">Share a few details and our travel desk will get in touch with pricing and availability.</p>
+
+      <form id="contactForm">
+        <input required type="text" placeholder="Full name" name="name" />
+        <input required type="email" placeholder="Email address" name="email" />
+        <input type="tel" placeholder="Phone number" name="phone" />
+        <textarea placeholder="Anything specific you'd like to know?" name="message" rows="3"></textarea>
+        <button type="submit" class="btn btn--navy popup__submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="popupThanks" class="popup__thanks" hidden>
+      <span class="popup__thanks-icon"><i data-lucide="handshake"></i></span>
+      <h3>Thank you</h3>
+      <p>Our team will reach out to you shortly.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script src="package.js" defer></script>
+</body>
+</html>
