@@ -937,6 +937,12 @@ span.navbar__brand-icon-1 {
   box-shadow: var(--shadow-card);
   transition: box-shadow .3s ease, transform .3s ease;
 }
+
+.packages__grid .package-card:first-child {
+    border: 3px solid var(--gold-500);
+    box-shadow: 1px 1px 3px var(--gold-500);
+}
+
 .package-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-6px); }
 .package-card__img { height: 220px; background-size: cover; background-position: center; }
 .package-card__body { padding: 28px; }
